@@ -1,0 +1,1140 @@
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
+Java version: 21.0.1, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home
+Default locale: en_CA, platform encoding: UTF-8
+OS name: "mac os x", version: "14.2.1", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /opt/homebrew/Cellar/maven/3.9.6/libexec/conf/settings.xml
+[DEBUG] Reading user settings from /Users/jidicula/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/homebrew/Cellar/maven/3.9.6/libexec/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/jidicula/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/jidicula/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/jidicula/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [deploy]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------< com.mycompany.app:maven-minimal >-------------------
+[INFO] Building maven-minimal 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-install-plugin:pom:2.5.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-install-plugin:pom:2.5.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom (6.4 kB at 32 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-plugins:pom:25 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-plugins:pom:25 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (9.6 kB at 637 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-plugins/25/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom.lastUpdated'
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Resolving artifact org.apache.maven:maven-parent:pom:24 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache.maven:maven-parent:pom:24 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 kB at 1.8 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/maven-parent/24/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/maven-parent/24/maven-parent-24.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache:apache:pom:14 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache:apache:pom:14 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 kB at 1.6 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/apache/14/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/apache/14/apache-14.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-install-plugin:jar:2.5.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-install-plugin:jar:2.5.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar (33 kB at 2.5 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar.lastUpdated'
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-deploy-plugin:pom:2.8.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-deploy-plugin:pom:2.8.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7.1 kB at 75 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-deploy-plugin:jar:2.8.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.maven.plugins:maven-deploy-plugin:jar:2.8.2 from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar (34 kB at 1.9 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar.lastUpdated'
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.mycompany.app:maven-minimal:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [github (https://maven.pkg.github.com/jidicula/maven-minimal, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <junitPlatformArtifactName default-value="org.junit.platform:junit-platform-engine">${junitPlatformArtifactName}</junitPlatformArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy (default-deploy)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <altDeploymentRepository>${altDeploymentRepository}</altDeploymentRepository>
+  <altReleaseDeploymentRepository>${altReleaseDeploymentRepository}</altReleaseDeploymentRepository>
+  <altSnapshotDeploymentRepository>${altSnapshotDeploymentRepository}</altSnapshotDeploymentRepository>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <deployAtEnd default-value="false">${deployAtEnd}</deployAtEnd>
+  <localRepository default-value="${localRepository}"/>
+  <offline default-value="${settings.offline}"/>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <retryFailedDeploymentCount default-value="1">${retryFailedDeploymentCount}</retryFailedDeploymentCount>
+  <skip default-value="false">${maven.deploy.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=157084, ConflictMarker.markTime=46916, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=93542, ConflictIdSorter.topsortTime=90333, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1042625, ConflictResolver.conflictItemCount=2, DfDependencyCollector.collectTime=6323541, DfDependencyCollector.transformTime=2033792}
+[DEBUG] com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ maven-minimal ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=148209, ConflictMarker.markTime=2179000, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=84833, ConflictIdSorter.topsortTime=18792, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1145625, ConflictResolver.conflictItemCount=67, DfDependencyCollector.collectTime=92781125, DfDependencyCollector.transformTime=3594584}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/jidicula/Developer/maven-minimal/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/jidicula/Developer/maven-minimal/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/jidicula/Developer/maven-minimal/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/jidicula/Developer/maven-minimal/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ maven-minimal ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=201208, ConflictMarker.markTime=111208, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=83417, ConflictIdSorter.topsortTime=27500, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1121000, ConflictResolver.conflictItemCount=72, DfDependencyCollector.collectTime=72247958, DfDependencyCollector.transformTime=1557625}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/jidicula/Developer/maven-minimal
+[DEBUG]   (f) buildDirectory = /Users/jidicula/Developer/maven-minimal/target
+[DEBUG]   (f) compilePath = [/Users/jidicula/Developer/maven-minimal/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/jidicula/Developer/maven-minimal/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/jidicula/Developer/maven-minimal/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/jidicula/Developer/maven-minimal/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) projectArtifact = com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/jidicula/Developer/maven-minimal/target/generated-sources/annotations to compile source roots:
+  /Users/jidicula/Developer/maven-minimal/src/main/java
+[DEBUG] New compile source roots:
+  /Users/jidicula/Developer/maven-minimal/src/main/java
+  /Users/jidicula/Developer/maven-minimal/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ maven-minimal ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources:default-testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/jidicula/Developer/maven-minimal/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/jidicula/Developer/maven-minimal/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/jidicula/Developer/maven-minimal/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/jidicula/Developer/maven-minimal/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ maven-minimal ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile:default-testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/jidicula/Developer/maven-minimal
+[DEBUG]   (f) buildDirectory = /Users/jidicula/Developer/maven-minimal/target
+[DEBUG]   (f) compilePath = [/Users/jidicula/Developer/maven-minimal/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/jidicula/Developer/maven-minimal/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/jidicula/Developer/maven-minimal/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/jidicula/Developer/maven-minimal/target/test-classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) testPath = [/Users/jidicula/Developer/maven-minimal/target/test-classes, /Users/jidicula/Developer/maven-minimal/target/classes, /Users/jidicula/.m2/repository/junit/junit/4.11/junit-4.11.jar, /Users/jidicula/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/jidicula/Developer/maven-minimal/target/generated-test-sources/test-annotations to test-compile source roots:
+  /Users/jidicula/Developer/maven-minimal/src/test/java
+[DEBUG] New test-compile source roots:
+  /Users/jidicula/Developer/maven-minimal/src/test/java
+  /Users/jidicula/Developer/maven-minimal/target/generated-test-sources/test-annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.22.1:test (default-test) @ maven-minimal ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=209500, ConflictMarker.markTime=112875, ConflictMarker.nodeCount=114, ConflictIdSorter.graphTime=82542, ConflictIdSorter.topsortTime=19208, ConflictIdSorter.conflictIdCount=37, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=651208, ConflictResolver.conflictItemCount=79, DfDependencyCollector.collectTime=33944958, DfDependencyCollector.transformTime=1091083}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.22.1
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.22.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.22.1:compile (version managed from default)
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:2.22.1:compile (version managed from default)
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.22.1:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:4.12:compile (version managed from default)
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-toolchain:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:0.9.10:compile (version managed from default)
+[DEBUG]          org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0-M8:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.22.1
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.22.1
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.22.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:2.22.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.22.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M8
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test:default-test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /Users/jidicula/Developer/maven-minimal
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /Users/jidicula/Developer/maven-minimal/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) junitPlatformArtifactName = org.junit.platform:junit-platform-engine
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///Users/jidicula/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.22.1:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.22.1:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.22.1:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:2.22.1:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.22.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:0.9.10:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:6.2:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0-M8:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.22.1:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {junit:junit=junit:junit:jar:4.11:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test}
+[DEBUG]   (s) projectBuildDirectory = /Users/jidicula/Developer/maven-minimal/target
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+   blocked: false
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /Users/jidicula/Developer/maven-minimal/target/surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (f) shutdown = testset
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = /Users/jidicula/Developer/maven-minimal/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /Users/jidicula/Developer/maven-minimal/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /Users/jidicula/Developer/maven-minimal
+[DEBUG]   (s) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG] -- end configuration --
+[DEBUG] Surefire report directory: /Users/jidicula/Developer/maven-minimal/target/surefire-reports
+[DEBUG] Setting system property [basedir]=[/Users/jidicula/Developer/maven-minimal]
+[DEBUG] Setting system property [user.dir]=[/Users/jidicula/Developer/maven-minimal]
+[DEBUG] Setting system property [localRepository]=[/Users/jidicula/.m2/repository]
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.22.1:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.22.1:compile (selected for compile)
+[DEBUG]       org.apache.maven.surefire:surefire-logger-api:jar:2.22.1:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar Scope: compile
+[DEBUG] Using JVM: /opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/bin/java with Java version 21
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit4:jar:2.22.1:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.22.1:test (selected for test)
+[DEBUG]       org.apache.maven.surefire:surefire-logger-api:jar:2.22.1:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar Scope: test
+[DEBUG] test classpath:  /Users/jidicula/Developer/maven-minimal/target/test-classes  /Users/jidicula/Developer/maven-minimal/target/classes  /Users/jidicula/.m2/repository/junit/junit/4.11/junit-4.11.jar  /Users/jidicula/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[DEBUG] provider classpath:  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar
+[DEBUG] provider(compact) classpath:  surefire-junit4-2.22.1.jar  surefire-api-2.22.1.jar  surefire-logger-api-2.22.1.jar
+[DEBUG] in-process classpath:  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.jar
+[DEBUG] in-process(compact) classpath:  surefire-junit4-2.22.1.jar  surefire-api-2.22.1.jar  surefire-logger-api-2.22.1.jar  maven-surefire-common-2.22.1.jar
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[DEBUG] Determined Maven Process ID 12724
+[DEBUG] boot classpath:  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar  /Users/jidicula/Developer/maven-minimal/target/test-classes  /Users/jidicula/Developer/maven-minimal/target/classes  /Users/jidicula/.m2/repository/junit/junit/4.11/junit-4.11.jar  /Users/jidicula/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /Users/jidicula/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-2.22.1.jar  surefire-api-2.22.1.jar  surefire-logger-api-2.22.1.jar  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar  surefire-junit4-2.22.1.jar
+[DEBUG] Forking command line: /bin/sh -c cd /Users/jidicula/Developer/maven-minimal && /opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/bin/java -jar /Users/jidicula/Developer/maven-minimal/target/surefire/surefirebooter10050414257450095214.jar /Users/jidicula/Developer/maven-minimal/target/surefire 2024-01-03T19-13-21_835-jvmRun1 surefire12633906374814696828tmp surefire_016107289781321274404tmp
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ maven-minimal ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=177958, ConflictMarker.markTime=49792, ConflictMarker.nodeCount=82, ConflictIdSorter.graphTime=102208, ConflictIdSorter.topsortTime=24125, ConflictIdSorter.conflictIdCount=31, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=606083, ConflictResolver.conflictItemCount=75, DfDependencyCollector.collectTime=27237584, DfDependencyCollector.transformTime=982458}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:3.0.2
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.7.1:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.11:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.5:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.0.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.7.1
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.11
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:3.0.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar:default-jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /Users/jidicula/Developer/maven-minimal/target/classes
+[DEBUG]   (f) finalName = maven-minimal-1.0-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /Users/jidicula/Developer/maven-minimal/target
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1e95b653
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Resource with newer modification date found.)
+[INFO] Building jar: /Users/jidicula/Developer/maven-minimal/target/maven-minimal-1.0-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory com/
+[DEBUG] adding directory com/mycompany/
+[DEBUG] adding directory com/mycompany/app/
+[DEBUG] adding entry com/mycompany/app/App.class
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.mycompany.app/
+[DEBUG] adding directory META-INF/maven/com.mycompany.app/maven-minimal/
+[DEBUG] adding entry META-INF/maven/com.mycompany.app/maven-minimal/pom.xml
+[DEBUG] adding entry META-INF/maven/com.mycompany.app/maven-minimal/pom.properties
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ maven-minimal ---
+[DEBUG] Resolving artifact junit:junit:pom:3.8.1 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact junit:junit:pom:3.8.1 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 77 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/junit/junit/3.8.1/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom.lastUpdated'
+[DEBUG] Resolving artifact commons-codec:commons-codec:pom:1.6 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact commons-codec:commons-codec:pom:1.6 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 kB at 797 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/commons-codec/commons-codec/1.6/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache.commons:commons-parent:pom:22 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache.commons:commons-parent:pom:22 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom (42 kB at 1.4 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/commons/commons-parent/22/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/commons/commons-parent/22/commons-parent-22.pom.lastUpdated'
+[DEBUG] Resolving artifact org.apache.maven.shared:maven-shared-utils:pom:0.4 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache.maven.shared:maven-shared-utils:pom:0.4 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom (4.0 kB at 368 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom.lastUpdated'
+[DEBUG] Resolving artifact org.codehaus.plexus:plexus-utils:pom:3.0.15 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.codehaus.plexus:plexus-utils:pom:3.0.15 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom (3.1 kB at 449 kB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom.lastUpdated'
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=36250, ConflictMarker.markTime=27792, ConflictMarker.nodeCount=40, ConflictIdSorter.graphTime=19083, ConflictIdSorter.topsortTime=11334, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=241166, ConflictResolver.conflictItemCount=40, DfDependencyCollector.collectTime=87219375, DfDependencyCollector.transformTime=346500}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Resolving artifact junit:junit:jar:3.8.1 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact commons-codec:commons-codec:jar:1.6 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache.maven.shared:maven-shared-utils:jar:0.4 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.codehaus.plexus:plexus-utils:jar:3.0.15 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact junit:junit:jar:3.8.1 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact commons-codec:commons-codec:jar:1.6 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.apache.maven.shared:maven-shared-utils:jar:0.4 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Resolving artifact org.codehaus.plexus:plexus-utils:jar:3.0.15 from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 5.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 7.5 MB/s)
+Progress (2): maven-shared-utils-0.4.jar (16/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (33/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (49/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (66/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (82/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (98/155 kB) | plexus-utils-3.0.15.jar (Progress (2): maven-shared-utils-0.4.jar (115/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (115/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (115/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (115/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (115/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (131/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (147/155 kB) | plexus-utils-3.0.15.jar Progress (2): maven-shared-utils-0.4.jar (155 kB) | plexus-utils-3.0.15.jar (81/                                                                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar (155 kB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (239 kB at 1.2 MB/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/junit/junit/3.8.1/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar.lastUpdated'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/commons-codec/commons-codec/1.6/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar.lastUpdated'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar.lastUpdated'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/_remote.repositories'
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar.lastUpdated'
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-install-plugin:2.5.2:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-install-plugin:2.5.2:install:default-install' with basic configurator -->
+[DEBUG]   (f) artifact = com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) installAtEnd = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/jidicula/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) pomFile = /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml]
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /Users/jidicula/Developer/maven-minimal/target/maven-minimal-1.0-SNAPSHOT.jar to /Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-SNAPSHOT.jar
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/_remote.repositories'
+[INFO] Installing /Users/jidicula/Developer/maven-minimal/pom.xml to /Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-SNAPSHOT.pom
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/_remote.repositories'
+[DEBUG] Installing com.mycompany.app:maven-minimal:1.0-SNAPSHOT/maven-metadata.xml to /Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata-local.xml
+[DEBUG] Installing com.mycompany.app:maven-minimal/maven-metadata.xml to /Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/maven-metadata-local.xml
+[INFO] 
+[INFO] --- deploy:2.8.2:deploy (default-deploy) @ maven-minimal ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=45875, ConflictMarker.markTime=35042, ConflictMarker.nodeCount=36, ConflictIdSorter.graphTime=56917, ConflictIdSorter.topsortTime=11458, ConflictIdSorter.conflictIdCount=16, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=200000, ConflictResolver.conflictItemCount=36, DfDependencyCollector.collectTime=3193125, DfDependencyCollector.transformTime=360334}
+[DEBUG] org.apache.maven.plugins:maven-deploy-plugin:jar:2.8.2
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.8.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.8.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.8.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-deploy-plugin:jar:2.8.2
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-deploy-plugin:2.8.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy:default-deploy' with basic configurator -->
+[DEBUG]   (f) artifact = com.mycompany.app:maven-minimal:jar:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) deployAtEnd = false
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///Users/jidicula/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) offline = false
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) pomFile = /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: com.mycompany.app:maven-minimal:1.0-SNAPSHOT @ /Users/jidicula/Developer/maven-minimal/pom.xml]
+[DEBUG]   (f) retryFailedDeploymentCount = 1
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://maven.pkg.github.com/jidicula/maven-minimal
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://maven.pkg.github.com/jidicula/maven-minimal with username=jidicula, password=***
+Downloading from github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml
+[DEBUG] Could not find metadata com.mycompany.app:maven-minimal:1.0-SNAPSHOT/maven-metadata.xml in github (https://maven.pkg.github.com/jidicula/maven-minimal)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/resolver-status.properties'
+Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.jar
+Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.jar (2.9 kB at 993 B/s)
+Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.pom
+Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.pom (2.9 kB at 941 B/s)
+Downloading from github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml
+Downloaded from github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml (242 B at 461 B/s)
+[DEBUG] Writing tracking file '/Users/jidicula/.m2/repository/com/mycompany/app/maven-minimal/resolver-status.properties'
+Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml
+Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml (774 B at 3.1 kB/s)
+Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml
+Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml (322 B at 1.9 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.434 s
+[INFO] Finished at: 2024-01-03T19:13:30-05:00
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory

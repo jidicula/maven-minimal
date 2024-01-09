@@ -1,3 +1,5 @@
+<details><summary>CLI logging</summary>
+<p>
 [DEBUG] Repositories (dependencies): [github (https://maven.pkg.github.com/jidicula/maven-minimal, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
 [DEBUG] Using transporter HttpTransporter with priority 5.0 for https://maven.pkg.github.com/jidicula/maven-minimal
 [DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://maven.pkg.github.com/jidicula/maven-minimal with username=jidicula, password=***
@@ -13,7 +15,8 @@ Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/myc
 Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml (774 B at 3.1 kB/s)
 Uploading to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml
 Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml (322 B at 1.9 kB/s)
-
+</p>
+</details> 
 
 ## Steps
 1. Attempt download `metadata.xml` for version: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml

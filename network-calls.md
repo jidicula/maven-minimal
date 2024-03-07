@@ -24,6 +24,7 @@ Uploaded to github: https://maven.pkg.github.com/jidicula/maven-minimal/com/myco
 2. Upload `.jar`: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.jar
 3. Upload `pom.xml`: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-minimal-1.0-20240104.001320-1.pom
 4. Download `metadata.xml`: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml
+   * note this is the `metadata.xml` for the package.
 5. Upload `metadata.xml`: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/1.0-SNAPSHOT/maven-metadata.xml
    * note this is the `metadata.xml` for the package version.
 6. Upload `metadata.xml`: https://maven.pkg.github.com/jidicula/maven-minimal/com/mycompany/app/maven-minimal/maven-metadata.xml
